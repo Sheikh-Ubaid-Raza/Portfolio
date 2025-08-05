@@ -2,7 +2,6 @@
 
 import { motion } from "framer-motion"
 import { Code, Lightbulb, Target, Zap } from "lucide-react"
-import Image from "next/image"
 
 const About = () => {
   const highlights = [
