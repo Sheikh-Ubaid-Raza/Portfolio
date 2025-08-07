@@ -63,15 +63,15 @@ const Experience = () => {
 
         <div className="relative">
           {/* Timeline line */}
-          <div className="absolute left-8 top-0 bottom-0 w-0.5 bg-gradient-to-b from-purple-400 via-blue-400 to-green-400"></div>
+          <div className="hidden md:block absolute md:left-8 top-0 bottom-0 w-0.5 bg-gradient-to-b from-purple-400 via-blue-400 to-green-400"></div>
 
           {experiences.map((exp, index) => (
             <div key={index} className="relative mb-12 last:mb-0">
               {/* Timeline dot */}
-              <div className="absolute left-6 w-4 h-4 bg-gradient-to-r from-purple-400 to-blue-400 rounded-full border-4 border-slate-900 z-10"></div>
+              <div className="hidden md:block absolute left-6 w-4 h-4 bg-gradient-to-r from-purple-400 to-blue-400 rounded-full border-4 border-slate-900 z-10"></div>
 
               {/* Content */}
-              <div className="ml-20">
+              <div className="ml-5 md:ml-20">
                 <div className="bg-slate-800/50 backdrop-blur-sm rounded-xl p-8 border border-slate-700/50 hover:border-purple-500/50 transition-all duration-300 transform hover:scale-[1.02]">
                   <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between mb-6">
                     <div className="mb-4 sm:mb-0 flex-1">
